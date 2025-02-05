@@ -25,12 +25,14 @@ export default function RootLayout({ children }: RootLayoutProps) {
           disableTransitionOnChange
         >
           <SidebarProvider>
-            <AppSidebar />
-            <main>
-              <SidebarTrigger />
-              {children}
-              <Footer />
-            </main>
+          <div className="flex h-screen">
+              <AppSidebar />
+              <main className="flex-grow p-4">
+                <SidebarTrigger />
+                {children}
+                <Footer />
+              </main>
+            </div>
             <Toaster />
           </SidebarProvider>
 
