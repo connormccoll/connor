@@ -1,5 +1,6 @@
 import { UserPen, FileText, Mountain, Smile, PersonStanding } from "lucide-react"
 import { ModeToggle } from "@/components/nav-bar/theme-mode"
+import { Button } from "@/components/ui/button"
 
 import {
   Sidebar,
@@ -12,6 +13,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
+import Contact from "@/app/contact/page"
 
 // Menu items.
 const items = [
@@ -31,11 +33,6 @@ const items = [
     icon: FileText,
   },
   {
-    title: "Contact",
-    url: "/contact",
-    icon: UserPen,
-  },
-  {
     title: "Fun",
     url: "/fun",
     icon: Smile,
@@ -44,13 +41,13 @@ const items = [
 
 export function AppSidebar() {
   return (
-    <Sidebar>
+    <Sidebar className="flex flex-col h-screen">
       <SidebarHeader>Connor McColl</SidebarHeader>
-      <SidebarContent>
+      <SidebarContent className="flex-grow">
 
         <SidebarGroup>
           {/* <SidebarGroupLabel>Connor McColl</SidebarGroupLabel> */}
-          <SidebarGroupContent>
+          <SidebarGroupContent >
             <SidebarMenu>
               {items.map((item) => (
                 <SidebarMenuItem key={item.title}>
@@ -64,9 +61,16 @@ export function AppSidebar() {
               ))}
             </SidebarMenu>
           </SidebarGroupContent>
+
+
         </SidebarGroup>
-        <ModeToggle />
+
       </SidebarContent>
+      <div className="mt-auto p-2">
+        <span className="p-1"><ModeToggle /></span>
+        <span className="p-1"><Contact /></span>
+      </div>
+
     </Sidebar>
   )
 }
