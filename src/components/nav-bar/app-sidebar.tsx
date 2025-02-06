@@ -32,17 +32,20 @@ const items = [
     url: "/resume",
     icon: FileText,
   },
-  {
-    title: "Fun",
-    url: "/fun",
-    icon: Smile,
-  }
+  // {
+  //   title: "Fun",
+  //   url: "/fun",
+  //   icon: Smile,
+  // }
 ]
 
 export function AppSidebar() {
   return (
-    <Sidebar className="flex flex-col h-screen">
-      <SidebarHeader>Connor McColl</SidebarHeader>
+    <Sidebar className="flex flex-col h-screen ">
+      <SidebarHeader><h3 className="scroll-m-20 text-2xl font-semibold tracking-tight ">
+        Connor McColl
+      </h3>
+      </SidebarHeader>
       <SidebarContent className="flex-grow">
 
         <SidebarGroup>
@@ -52,9 +55,11 @@ export function AppSidebar() {
               {items.map((item) => (
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton asChild>
-                    <a href={item.url}>
+                    <a href={item.url} className="flex items-center space-x-2">
                       <item.icon />
-                      <span>{item.title}</span>
+                      <h2 className="scroll-m-20 border-b text-xl font-semibold tracking-tight first:mt-0">
+                        {item.title}
+                      </h2>
                     </a>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
