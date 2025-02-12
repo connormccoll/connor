@@ -175,7 +175,7 @@ export default function Resume() {
                                             <span> 2015-2020</span>
                                         </div>
                                         <ul className="list-disc pl-5">
-                                            <li>Bachelor’s in Mechanical Engineering • GPA 3.44/4.0 </li>
+                                            <li>Bachelor’s in Mechanical Engineering • GPA 3.4/4.0 </li>
                                             <li>I interfaced with users for investigating and fixing defects on legacy applications. </li>
                                             <li>I collaborated with Product Owner, customers, and usability to improve products, gather feedback, and solve defects. </li>
                                             <li>I managed two interns on our team and ran the summer internship program on a successful project. </li>
@@ -202,14 +202,14 @@ export default function Resume() {
                     </Card>
                 </div>
             </div>
-            <div className="flex flex-col w-1/4 p-1">
+            <div className="md:w-1/4 p-1">
 
-                <Card className="h-full p-10">
+                <Card className="h-full w-full p-10">
                     <CardHeader><h3 className="text-2xl">Technical Skills</h3></CardHeader>
-                    <CardContent className="gap-2">
+                    <CardContent className="flex flex-wrap gap-2">
                         {skills.map((skill) => (
-                            <div className="p-2">
-                                <Badge key={skill} className="p-3">{skill}</Badge>
+                            <div >
+                                <Badge key={skill} className="p-2">{skill}</Badge>
                             </div>
                         ))}
                     </CardContent>
