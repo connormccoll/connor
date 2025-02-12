@@ -8,6 +8,7 @@ import { AppSidebar } from "@/components/nav-bar/app-sidebar";
 import Footer from "@/components/footer";
 import "@/fonts/geist"
 import "@/fonts/geist_mono"
+import Head from "./head";
 interface RootLayoutProps {
   children: React.ReactNode;
 }
@@ -15,7 +16,8 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <Head>
+      </Head>
       <body>
         <ThemeProvider
           attribute="class"
