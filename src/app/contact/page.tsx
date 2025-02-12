@@ -1,10 +1,7 @@
-import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Drawer, DrawerContent, DrawerDescription, DrawerFooter, DrawerHeader, DrawerTitle, DrawerTrigger } from "@/components/ui/drawer";
+import { Drawer, DrawerContent, DrawerHeader, DrawerTitle, DrawerTrigger } from "@/components/ui/drawer";
 import { toast } from "@/hooks/use-toast";
-import { Mail, MapPin, Phone, UserPen } from "lucide-react";
-import Image from "next/image"
+import { Mail, Phone, UserPen } from "lucide-react";
 import { MouseEventHandler } from "react";
 
 export default function Contact() {

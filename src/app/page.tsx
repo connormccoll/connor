@@ -1,8 +1,5 @@
-import { Mail } from "lucide-react";
 import Image from "next/image"
 import { AspectRatio } from "@/components/ui/aspect-ratio"
-import { toast } from "@/hooks/use-toast";
-import { MouseEventHandler } from "react";
 import { metadata } from "./metadata";
 import { Separator } from "@/components/ui/separator";
 export { metadata };

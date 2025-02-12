@@ -1,13 +1,11 @@
-import { UserPen, FileText, Mountain, Smile, PersonStanding } from "lucide-react"
+import { FileText, Mountain, PersonStanding } from "lucide-react"
 import { ModeToggle } from "@/components/nav-bar/theme-mode"
-import { Button } from "@/components/ui/button"
 
 import {
   Sidebar,
   SidebarContent,
   SidebarGroup,
   SidebarGroupContent,
-  SidebarGroupLabel,
   SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
