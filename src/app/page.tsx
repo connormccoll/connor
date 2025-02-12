@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex flex-grow p-10">
     <AspectRatio ratio={16 / 9}>
         <Image
-          src="/images/CM1.jpg"
+          src="/images/connor-mccoll-5.jpg"
           alt="Photo by Connor McColl"
           fill
           className="rounded-full object-cover"

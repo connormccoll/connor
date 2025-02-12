@@ -7,7 +7,7 @@ export default function About() {
     <div className="flex flex-col md:flex-row items-center justify-center p-2">
       <div className="w-full md:w-1/2 p-10">
         <Image
-          src="/images/CM2.jpg"
+          src="/images/connor-mccoll-2.JPG"
           alt="Connor McColl"
           width={300}
           height={300}
