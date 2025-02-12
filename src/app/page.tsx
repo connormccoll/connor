@@ -6,10 +6,10 @@ export { metadata };
 
 export default function Home() {
   return (
-    <div className="flex flex-grow p-5">
+    <div className="flex flex-grow p-10">
     <AspectRatio ratio={16 / 9}>
         <Image
-          src="/images/connor-mccoll.jpg"
+          src="/images/connor-mccoll-5.jpg"
           alt="Photo by Connor McColl"
           fill
           className="rounded-full object-cover"

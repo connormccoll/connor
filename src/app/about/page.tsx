@@ -7,7 +7,7 @@ export default function About() {
     <div className="flex flex-col md:flex-row items-center justify-center p-2">
       <div className="w-full md:w-1/2 p-10">
         <Image
-          src="/images/connor-mccoll-2.jpg"
+          src="/images/connor-mccoll.jpg"
           alt="Connor McColl"
           width={300}
           height={300}
@@ -20,7 +20,6 @@ export default function About() {
             <CardTitle>About Me</CardTitle>
           </CardHeader>
           <CardContent><Smile/></CardContent>
-
           <CardContent>
               <p className="text-lg">
               Hi, I'm Connor! I am a UI owner and Senior Software Engineer working on cloud-based applications in the healthcare industry. I live in Milwaukee with my wife and our pup! I am passionate about protecting our environment and in my free time I enjoy running, biking, skiing, camping, cooking, and art projects.
