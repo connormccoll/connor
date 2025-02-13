@@ -25,7 +25,7 @@ export default function Contact() {
   return (
     <Drawer>
       <DrawerTrigger asChild>
-        <Button variant="outline"><UserPen />Contact Me</Button>
+        <Button variant="outline"><UserPen /><h2 className="font-semibold text-lg">Contact Me</h2></Button>
       </DrawerTrigger>
       <DrawerContent>
         <div className="mx-auto w-full max-w-sm">

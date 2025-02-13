@@ -12,6 +12,7 @@ export default function Home() {
           src="/images/connor-mccoll-5.jpg"
           alt="Photo by Connor McColl"
           fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="rounded-full object-cover"
         />
 

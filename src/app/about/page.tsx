@@ -7,10 +7,11 @@ export default function About() {
     <div className="flex flex-col md:flex-row items-center justify-center p-2">
       <div className="w-full md:w-1/2 p-10">
         <Image
-          src="/images/connor-mccoll-2.JPG"
+          src="/images/connor-mccoll-2.jpg"
           alt="Connor McColl"
           width={300}
           height={300}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 300px"
           className="rounded-full"
         />
       </div>

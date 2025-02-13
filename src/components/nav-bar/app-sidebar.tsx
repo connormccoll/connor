@@ -1,5 +1,4 @@
 import { FileText, Mountain, PersonStanding } from "lucide-react"
-import { ModeToggle } from "@/components/nav-bar/theme-mode"
 
 import {
   Sidebar,
@@ -29,12 +28,7 @@ const items = [
     title: "Resume",
     url: "/resume",
     icon: FileText,
-  },
-  // {
-  //   title: "Fun",
-  //   url: "/fun",
-  //   icon: Smile,
-  // }
+  }
 ]
 
 export function AppSidebar() {
@@ -70,7 +64,6 @@ export function AppSidebar() {
 
       </SidebarContent>
       <div className="mt-auto p-2">
-        <span className="p-1"><ModeToggle /></span>
         <span className="p-1"><Contact /></span>
       </div>
 
