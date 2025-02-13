@@ -8,6 +8,7 @@ export default function About() {
       <div className="w-full md:w-1/2 p-10">
         <Image
           src="/images/connor-mccoll-2.jpg"
+          priority={true}
           alt="Connor McColl"
           width={300}
           height={300}

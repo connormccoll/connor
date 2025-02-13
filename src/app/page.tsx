@@ -10,6 +10,7 @@ export default function Home() {
     <AspectRatio ratio={16 / 9}>
         <Image
           src="/images/connor-mccoll-5.jpg"
+          priority={true}
           alt="Photo by Connor McColl"
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
