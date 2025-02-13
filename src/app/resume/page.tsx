@@ -13,7 +13,7 @@ export default function Resume() {
             <div className="md:w-full">
 
                 <div className="flex md:w-full p-1 ">
-                    <Card className="h-full w-full p-10">
+                    <Card className="h-full w-full p-2">
                         <CardHeader><h3 className="text-2xl">Connor McColl</h3></CardHeader>
                         <CardContent>
                             Current UI owner, strong ability to empower others through frequent pair programming and clear planning. Facilitate product discussions to shape the frontend to the user personas. Design with wireframes to animate mockups of user flows for early feedback and frequent adapting. Keep the code base thoroughly unit tested and BDD tested. Collaborate with service, security, architects, product managers and consuming stakeholders to ensure the product meets the requirements. Review merge/pull requests to a level that yields a robust and maintainable repository. Additional valuable knowledge that enabling cross functional collaboration including UX design, management, project management, systems engineering, data analytics, and intellectual property.
@@ -21,7 +21,7 @@ export default function Resume() {
                     </Card>
                 </div>
                 <div className="flex md:w-full p-1 ">
-                    <Card className="h-full w-full p-10">
+                    <Card className="h-full w-full p-2">
                         <CardHeader><h3 className="text-2xl">Professional Experience</h3></CardHeader>
                         <CardContent>
                             <Accordion type="single" collapsible className="w-full">
@@ -146,7 +146,7 @@ export default function Resume() {
                     </Card>
                 </div>
                 <div className="flex flex-col w-full p-1">
-                    <Card className="h-full p-10">
+                    <Card className="h-full p-2">
                         <CardHeader><h3 className="text-2xl">Education</h3></CardHeader>
                         <CardContent>
 
@@ -185,7 +185,7 @@ export default function Resume() {
                     </Card>
                 </div>
                 <div className="flex flex-col w-full p-1">
-                    <Card className="h-full p-10 style={{ paddingBottom: '20px' }}">
+                    <Card className="h-full p2 style={{ paddingBottom: '20px' }}">
                         <CardHeader>
                             <a
                                 href="https://patents.google.com/?inventor=Connor+Douglas+McColl"
@@ -201,7 +201,7 @@ export default function Resume() {
             </div>
             <div className="md:w-1/4 p-1">
 
-                <Card className="h-full w-full p-10">
+                <Card className="h-full w-full p-2">
                     <CardHeader><h3 className="text-2xl">Technical Skills</h3></CardHeader>
                     <CardContent className="flex flex-wrap gap-2">
                         {skills.map((skill, index) => (
