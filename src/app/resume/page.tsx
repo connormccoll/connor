@@ -16,7 +16,7 @@ export default function Resume() {
                     <Card className="h-full w-full p-2">
                         <CardHeader><h3 className="text-2xl">Connor McColl</h3></CardHeader>
                         <CardContent>
-                            Current UI owner, strong ability to empower others through frequent pair programming and clear planning. Facilitate product discussions to shape the frontend to the user personas. Design with wireframes to animate mockups of user flows for early feedback and frequent adapting. Keep the code base thoroughly unit tested and BDD tested. Collaborate with service, security, architects, product managers and consuming stakeholders to ensure the product meets the requirements. Review merge/pull requests to a level that yields a robust and maintainable repository. Additional valuable knowledge that enabling cross functional collaboration including UX design, management, project management, systems engineering, data analytics, and intellectual property.
+                        Senior software engineer leading UI development with full stack and cross-functional experience. Fostering a team culture of delivering intuitive and easily maintainable UIs with pair programming, thorough testing, continuous improvement, and sound planning. Passionate about the users and ensuring the design meets requirements by leading product discussions, quickly resolving defects, and prioritizing new features. Take a creative and open-minded approach to product decisions and design UIs with animated wireframes for early and iterative feedback.
                         </CardContent>
                     </Card>
                 </div>
